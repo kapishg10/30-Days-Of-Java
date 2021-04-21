@@ -24,8 +24,8 @@ class TeacherDaoImpl {
 	      return teachers;
 	   }
 
-	   public Teacher getTeacher(int rollNo) {
-	      return teachers.get(rollNo);
+	   public Teacher getTeacher(int teacherId) {
+	      return teachers.get(teacherId);
 	   }
 
 
