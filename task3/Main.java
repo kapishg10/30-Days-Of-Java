@@ -8,8 +8,8 @@ class Main {
 		TeacherDaoImpl teacherDao = new TeacherDaoImpl();
 
 	      //print all teachers
-	      for (Teacher student : teacherDao.getAllTeachers()) {
-	         System.out.println("Teacher: [Id : " + student.getTeacherId() + ", Name : " + student.getTeacherName() + " ]");
+	      for (Teacher teacher : teacherDao.getAllTeachers()) {
+	         System.out.println("Teacher: [Id : " + teacher.getTeacherId() + ", Name : " + teacher.getTeacherName() + " ]");
 	      }
 
 
