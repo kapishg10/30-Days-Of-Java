@@ -15,9 +15,9 @@ class TeacherDaoImpl {
 	      teachers.add(teacher2);		
 	   }
 
-	   public void deleteTeacher(Teacher student) {
-		   teachers.remove(student.getTeacherId());
-	      System.out.println("Teacher: Id " + student.getTeacherId() + ", deleted from database");
+	   public void deleteTeacher(Teacher teacher) {
+		   teachers.remove(teacher.getTeacherId());
+	      System.out.println("Teacher: Id " + teacher.getTeacherId() + ", deleted from database");
 	   }
 
 	   public List<Teacher> getAllTeachers() {
